@@ -1,0 +1,31 @@
+<div class="navbar">
+  <div class="navbar-inner">
+    <div class="left sliding"><a href="index.php" class="back link"><i class="icon icon-back"></i><span>Zpět</span></a></div>
+    <div class="center sliding">Přidat oblíbené město</div>
+  </div>
+</div>
+<form id="insert-place">
+    <div class="pages navbar-through">
+      <div data-page="autocomplete" class="page">
+        <div class="page-content">
+          <div class="content-block-title">Zadejte město (bez diakritiky)</div>
+          <div class="list-block">
+            <ul>
+              <li class="item-content">
+                <div class="item-title label">Město</div>
+                <div class="item-input">
+                  <input type="text" placeholder="Město" id="dropdown-ajax" name="place"/>
+                  <input type="hidden" id="hidden-dropdown-ajax" name="json" hidden/>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="content-block">
+            <div class="row">
+              <div class="col-100"><a href="#" class="button button-big button-fill color-green" id="insert-place-button">Uložit</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</form>
